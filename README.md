@@ -9,6 +9,7 @@ You will also require and ESPA accound
 
 
 ###Setting up of project folder###
+
 Inside main directory <provisional_ssebop> create new project folder. 
 Folder will require an order.ini similar to one found in exmaple folder. 
 Also required is image id csv in format of example_id_list.csv in example folder. 
@@ -16,12 +17,14 @@ Also required is image id csv in format of example_id_list.csv in example folder
 Inside order ini, specifiy project directory, user account info etc.
 Currently only "utm" and "gtiff" is suported in order_variables
 list of availe product_list: ['source_metadata', 'l1', 'toa', 'bt', 'sr', 'toa', 'pixel_qa', 'aq_refl', 'et', 'stats',
+
                        'sr_ndvi', 'sr_evi', 'sr_savi', 'sr_msavi', 'sr_ndmi', 'sr_nbr', 'sr_nbr2']
 
 Order_id field is not required for initial run, it will be polulated once order is created. 
 Google cloud sotrage field is required for dowload script.
 
 ###Running Code###
+
 All comands will be run from comand line directory as
 (provisional_ssebop) D:\tott\Documents\Work_Projects\Provisional_ssebop_data\provisional_ssebop>
 
