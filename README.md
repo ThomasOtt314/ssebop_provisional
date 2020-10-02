@@ -1,5 +1,7 @@
-# ssebop_provisional
+# ssebop_provisional_beta
+This code is still in development state
 #Instalation of packages
+
 Use environment.yml to create conda environment for running
 Will require instalation of google cloud storage on device and initiation in conda env. 
 Once google cloud is installed on device run <gcloud init> in conand prompt of activated env.
