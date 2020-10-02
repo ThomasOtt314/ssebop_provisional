@@ -1,0 +1,11 @@
+name: ssebop_provisional
+channels:
+  - conda-forge
+dependencies:
+  - requests
+  - numpy>=1.15
+  - pandas>=0.24
+  - python>=3.7
+  - configparser
+  - rasterio
+ 
